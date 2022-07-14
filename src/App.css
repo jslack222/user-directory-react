@@ -1,0 +1,57 @@
+* {
+  
+}
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: rgb(69, 69, 69);
+  overflow-x: hidden;
+}
+Header {
+  height: 75px;
+  width: 100vw;
+  background-color:rgb(11, 174, 255) ;
+  padding: 0px 35px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  
+}
+.App {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.item-card {
+  position: center;
+  background: white;
+    width: 60vw;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+    border-radius: 3px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.9);
+}
+
+ul {
+  list-style-type: none;
+}
+h2 {
+  cursor: pointer;
+  padding: 25px;
+}
+
+h2:hover {
+  color: white;
+}
+.item-card-left {
+  padding: 15px 30px; 
+
+}
+.bold {
+  font-weight: bolder;
+}
