@@ -78,6 +78,7 @@ h2:hover {
 }
 .previous-btn:hover {
   color:rgb(11, 174, 255);
+  font-size: 25px;
 }
 .button-container {
   display: flex;
@@ -96,6 +97,7 @@ h2:hover {
 }
 .next-btn:hover {
   color:rgb(11, 174, 255);
+  font-size: 25px;
 }
 .Name {
   text-underline-position: under;

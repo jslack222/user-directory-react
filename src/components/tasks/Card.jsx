@@ -10,7 +10,7 @@ const Card = (props) => {
         <div className="nameAndNumber">
           <h1 className="Name">{data[props.input].name.first} {data[props.input].name.last}</h1>
           <h1 className="Number">
-            {data[props.input].id}/{data.length}
+            {props.input + 1}/{data.length}
           </h1>
         </div>
         <p>
